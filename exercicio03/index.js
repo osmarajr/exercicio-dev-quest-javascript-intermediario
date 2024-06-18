@@ -3,12 +3,17 @@
 */
 
 //obter o elemento quadrado
-const quadrado = document.getElementsByClassName('quadrado')
+const quadrado = document.querySelector('.quadrado');
 
-quadrado.addEventListener('click', () => {
-
-    const classeAzulExiste = quadrado.classList.contains('azul');
+//ao clicar verificar se possui classe azul senao adicionar, e ao clicar novamente retornar para a classe original
+function verificarCor(){
+    const classeAzulExiste = quadrado.classList.contains('azul')
 
     console.log(classeAzulExiste);
 
-})
+    if(classeAzulExiste){
+        quadrado.classList.remove('azul');
+    }else{
+        quadrado.classList.add('azul');
+    }
+}
