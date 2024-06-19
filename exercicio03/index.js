@@ -7,9 +7,8 @@ const quadrado = document.querySelector('.quadrado');
 
 //ao clicar verificar se possui classe azul senao adicionar, e ao clicar novamente retornar para a classe original
 function verificarCor(){
-    const classeAzulExiste = quadrado.classList.contains('azul')
 
-    console.log(classeAzulExiste);
+    const classeAzulExiste = quadrado.classList.contains('azul');
 
     if(classeAzulExiste){
         quadrado.classList.remove('azul');
