@@ -1,0 +1,28 @@
+body{
+    color: black;
+}
+.container1{
+    background-image: url(./src/img/slide01/imagem.png);
+    max-width: 1920px;
+    height: 1080px;
+    padding: 10em;
+    display: flex;
+    flex-direction: row;
+}
+.setaEsquerda{
+    background-image: url(./src/img/slide01/seta-esquerda.png);
+}
+.setaDireita{
+    background-image: url(./src/img/slide01/seta-direita.png);
+}
+.box{
+    background-color: white;
+    height: 18em;
+    width: 17em;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.saiba{
+    color: red;
+}
