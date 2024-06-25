@@ -8,26 +8,26 @@ body{
 }
 .container1{
     background: url(./src/img/slide01/imagem.png) no-repeat;
-    width: 1920px;
-    height: 1080px;
+    min-width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
-    padding-left: 10rem;
+    justify-content: space-between;
 }
-.setaEsquerda{
-    background: url(./src/img/slide01/seta-esquerda.png);
-}
-.setaDireita{
-    background-image: url(./src/img/slide01/seta-direita.png);
-}
-.box{
-    background-color: white;
-    height: 18em;
-    width: 17em;
-    padding: 12px;
-    margin: 10px;
+
+section{
     display: flex;
     flex-direction: column;
+}
+section .box{
+    background-color: white;
+    height: 20em;
+    width: 17em;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: -35em;
 }
 .saiba{
     color: red;
