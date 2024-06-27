@@ -7,7 +7,7 @@ body{
     align-items: center;
 }
 .container{
-    background: url(./src/img/slide01/imagem.png) no-repeat;
+
     min-width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,7 +15,20 @@ body{
     justify-content: space-between;
 }
 .slide01{
+    background: url(./src/img/slide01/imagem.png) no-repeat;
     display: flex;
+}
+.slide02{
+    background: url(./src/img/slide02/imagem.png) no-repeat;
+    display: none;
+}
+.slide03{
+    background: url(./src/img/slide03/imagem.png) no-repeat;
+    display: none;
+}
+.slide04{
+    background: url(./src/img/slide04/imagem.png) no-repeat;
+    display: none;
 }
 section{
     display: flex;

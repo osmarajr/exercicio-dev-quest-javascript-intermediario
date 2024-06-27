@@ -15,3 +15,11 @@ Quando for a última imagem, a seta da
 direita deve ficar com uma opacidade e sem
 clique.
 */
+
+//obter os elementos da classe container
+let containerSlide = document.querySelectorAll(".container");
+
+//função para mudar o slide
+function mudarSlide(){
+    
+}
