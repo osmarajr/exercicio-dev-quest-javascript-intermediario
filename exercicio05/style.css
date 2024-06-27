@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container1{
+.container{
     background: url(./src/img/slide01/imagem.png) no-repeat;
     min-width: 100vw;
     height: 100vh;
@@ -14,7 +14,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
+.slide01{
+    display: flex;
+}
 section{
     display: flex;
     flex-direction: column;
@@ -29,6 +31,6 @@ section .box{
     gap: 2em;
     margin-left: -35em;
 }
-.saiba{
+.saiba1{
     color: red;
 }
