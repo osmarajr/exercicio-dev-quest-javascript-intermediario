@@ -55,6 +55,9 @@
     opacity: 0.6;
     cursor: default;
 }
+.esconder{
+    opacity: 0;
+}
 
 .conteudo{
     display: block;

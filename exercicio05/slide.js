@@ -8,11 +8,33 @@ let imagemAtual = 0;
 
 setAvancar.addEventListener('click',function(){
     if(imagemAtual === imagens.length - 1){
+        this.classList.add('esconder');
         return
     }
+    esconderImagemAberta();
+
     imagemAtual++;
 
+    mostrarImagem(imagens);
+})
+
+function esconderImagemAberta(){
+    const imagemAberta =  document.querySelector('.mostrar');
+
+    imagemAberta.classList.remove('mostrar')
+}
+
+function mostrarImagem(imagens){
+    
+    imagens[imagemAtual].classList.add('mostrar');
+}
+
+setaVoltar.addEventListener('click', function(){
+    if(imagemAtual <= 0){
+        return
+    }
+
     esconderImagemAberta();
-    mostrarImagem();
-    mostrarOuEsconderSetas();
+    imagemAtual--;
+    mostrarImagem(imagens);
 })
