@@ -8,7 +8,6 @@ let imagemAtual = 0;
 
 setAvancar.addEventListener('click',function(){
     if(imagemAtual === imagens.length - 1){
-        this.classList.add('esconder');
         return
     }
     esconderImagemAberta();
