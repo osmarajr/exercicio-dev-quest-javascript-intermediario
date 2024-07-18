@@ -51,7 +51,7 @@ function esconderOuMostrarSeta(){
         setaVoltar.classList.add('opacidade')
     }
 
-    const naoEhAUltimaImagem =  imagemAtual !== imagens.length;
+    const naoEhAUltimaImagem =  imagemAtual !== imagens.length - 1;
     if(naoEhAUltimaImagem){
         setAvancar.classList.remove('opacidade')
     }else{
